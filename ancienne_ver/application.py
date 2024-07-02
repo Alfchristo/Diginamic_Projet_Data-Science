@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 from reportlab.pdfgen import canvas
-from utils.lazyutils import LazyClassifier
+from ancienne_ver.utils.lazyutils import LazyClassifier
 from sklearn.decomposition import PCA
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LinearRegression, LogisticRegression
@@ -12,11 +12,11 @@ from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
-from evaluation.evaluator import evaluate_model
-from modelisation.model import get_user_input, train_machine_learning_model
-from traitement.description import *
-from traitement.distributions import *
-from traitement.nettoyage import *
+from ancienne_ver.evaluation.evaluator import evaluate_model
+from ancienne_ver.modelisation.model import get_user_input, train_machine_learning_model
+from ancienne_ver.traitement.description import *
+from ancienne_ver.traitement import *
+from ancienne_ver.traitement.nettoyage import *
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Étape 1: Construction de Streamlit
