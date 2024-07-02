@@ -16,8 +16,8 @@ Ce document détaille le développement d'une application prédictive interactiv
 
 1. **Clonez le dépôt**:
    ```bash
-   git clone https://github.com/Diginamic-M09-Gr3/streamlit.git
-   cd streamlit
+   git clone https://github.com/Diginamic-M09-Gr3/32123BC6-Data-Science.git
+   cd 32123BC6-Data-Science
    
 2. **Créez un environnement virtuel (venv)**:
    ```bash
