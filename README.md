@@ -18,10 +18,12 @@ Ce document détaille le développement d'une application prédictive interactiv
    ```bash
    git clone https://github.com/Diginamic-M09-Gr3/32123BC6-Data-Science.git
    cd 32123BC6-Data-Science
+   ```
    
 2. **Créez un environnement virtuel (venv)**:
    ```bash
    python -m venv env
+   ```
    
 3. **Activez l'environnement virtuel (sous Windows)**:
    ```bash
@@ -30,18 +32,22 @@ Ce document détaille le développement d'une application prédictive interactiv
    **Sous macOS/Linux**:
    ```bash
    source env/bin/activate
-
+   ```
+   
 4. **Installez les dépendances**:
    ```bash
     pip install -r requirements.txt
+   ```
 
 5. **Exécutez l'application Streamlit**:
    ```bash
     streamlit run my_app.py
+   ```
 
 6. **Ouvrez l'application dans votre navigateur**:
    ```bash
     Local URL: http://localhost:8501
+   ```
 
 ## Utilisation
 
